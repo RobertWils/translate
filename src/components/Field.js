@@ -4,7 +4,7 @@ import LanguageContext from "../contexts/LanguageContext";
 class Field extends React.Component {
   static contextType = LanguageContext; // same as Button.contextType
 
-  // comment test even test knfkdmngfpkdg
+  // comment test even test
 
   render() {
     const text = this.context === "english" ? "Name" : "Naam";
